@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(//db.onlinewebfonts.com/c/0406c39d71726a4efe1134bf8e3feb71?family=Apercu+Pro);
+
+body {
+  font-family: Noto Sans;
+  font-style: normal;
+  color: #000000;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.title,
+.logo {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.36;
+  text-align: center;
+}
+.title {
+  padding-bottom: 24px;
+}
+
+.logo {
+  padding-top: 40px;
+}
+
+.description {
+  padding: 24px 0;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 1.26;
+  text-align: center;
+}
+
+.item-description {
+  padding: 8px 0 16px 0;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 1.26;
+  text-align: start;
+}
+
+.section-description,
+.section-desc {
+  padding-left: 30px;
+  font-family: Apercu Pro;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 1.535;
+}
+
+.section-desc {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #000000;
+}
+
+.main {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 40px 28px;
+}
+
+.hero-thumb {
+  background-color: #fff0f0;
+  border-radius: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-in-button {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.125px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.section-list-item {
+  display: flex;
+  padding: 16px;
+}
+
+.section-list-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.section-list-item + .item {
+  margin-top: 40px;
+}
+
+.image-thumb {
+  width: 260px;
+  height: 260px;
+  margin: 0 12px;
+}
+
+.section-list-item-aside {
+  width: 284px;
+  height: 238px;
+  margin: 11px 0;
+  padding: 16px 12px;
+}
+
+.section-list-item-title {
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 1.26;
+  color: #1c1e23;
+}
+
+.footer-text {
+  max-width: 347px;
+  font-size: 13px;
+  line-height: 1.425;
+  text-align: center;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto;
+  width: 220px;
+  height: 24px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.425;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.footer-logo {
+  margin: 17px 0px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 0.74;
+}
