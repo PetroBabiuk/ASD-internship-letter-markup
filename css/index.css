@@ -12,16 +12,6 @@ img {
   width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
 ul,
 ol {
   list-style: none;
@@ -97,6 +87,7 @@ ol {
 }
 
 .hero-thumb {
+  overflow: hidden;
   background-color: #fff0f0;
   border-radius: 20px;
 }
